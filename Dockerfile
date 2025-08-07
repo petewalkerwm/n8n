@@ -6,7 +6,7 @@ COPY . .
 
 WORKDIR /app/docker/images/n8n
 
-RUN npm ci
+RUN npm install
 
 EXPOSE 5678
 
